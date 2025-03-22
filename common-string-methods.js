@@ -101,3 +101,40 @@ console.log({
   firstCharacter,
   extractedBootcamp,
 });
+
+//Starter Code
+let inputString = "  Welcome to the Coding Bootcamp! Learn JavaScript today.  ";
+
+// 1. Searching
+let hasJavaScript = inputString.includes("JavaScript"); // Your code here
+let codingPosition = inputString.indexOf("Coding"); // Your code here
+let startsWithWelcome = inputString.startsWith("Welcome"); // Your code here
+let endsWithToday = inputString.endsWith("today"); // Your code here
+
+// 2. Transforming
+let lowercaseString = inputString.toLowerCase(inputString); // Your code here
+let uppercaseString = inputString.toUpperCase(inputString); // Your code here
+let trimmedString = inputString.trim(inputString); // Your code here
+let replacedString = inputString.replace("JavaScript","coding"); // Your code here
+
+// 3. Breaking Apart
+let wordsArray = inputString.split(" "); // Your code here
+
+// 4. Retrieving
+let firstCharacter = trimmedString.charAt(0); // Your code here
+let extractedBootcamp = trimmedString.slice(22,30); // Your code here
+
+// Log all results
+console.log({
+  hasJavaScript,
+  codingPosition,
+  startsWithWelcome,
+  endsWithToday,
+  lowercaseString,
+  uppercaseString,
+  trimmedString,
+  replacedString,
+  wordsArray,
+  firstCharacter,
+  extractedBootcamp,
+});
